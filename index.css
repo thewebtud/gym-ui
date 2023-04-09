@@ -1,0 +1,112 @@
+body {
+    font-family: 'Morris Fuller Benton';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.navigation-tab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slide1-content {
+    display: flex;
+    height: 75%;
+}
+
+.slide1-heading {
+    font-size: 4rem;
+}
+
+.slide1-input {
+    background: #2D2D2D;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 30%;
+
+}
+
+.slide1-warning {
+    margin: 1rem 0;
+}
+.slide1-callback-btn {
+    background: #000;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #0DA2A2;
+    color: white;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+.green-gradient {
+    background: linear-gradient(90deg, #00BCD6 0%, #ADFFD8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.slide2-heading {}
+
+.slide2logo {
+    width: 30%;
+}
+
+.slide6 {
+    display: flex;
+    justify-content: center;
+}
+
+.slide6-content {
+    width: 75%;
+}
+
+.slide6-flexbox-container {
+    display: flex;
+}
+
+.slide6-right-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide6-right-images,
+.slide6-left-images {
+    width: 50%;
+}
+
+.slide6-right-images img,
+.slide6-left-images img {
+    width: -webkit-fill-available
+}
+
+
+summary::-webkit-details-marker {
+    color: blue;
+}
+
+summary:focus {
+    outline-style: none;
+}
